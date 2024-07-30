@@ -1,0 +1,64 @@
+
+.cont{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    color: #11339c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #78541d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 5px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #5b3a17;
+}
+thead {
+    background-color: #0033cc;
+    color: white;
+}
+th,td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}

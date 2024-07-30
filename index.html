@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    <div class="cont">
+        <h1>ADD a new Transaction</h1>
+        <form action="" id="tran-form">
+
+            <label for="">Type</label>
+            <select name="" id="type">
+                <option value="">Choose</option>
+                <option value="inc">Income</option>
+                <option value="exp">Expense</option>
+            </select>
+            <label for="">Name:</label>
+            <input type="text" id="name">
+            <label for="">Amount:</label>
+            <input type="number" id="name" required>
+            <button type="submit">Add to transactions</button>
+
+        </form>
+
+        <table id="tran-table">
+            <thead>
+            <tr>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Options</th>
+            </tr>
+            </thead>
+            
+            <tbody id="tran-list">
+                
+                
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
